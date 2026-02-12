@@ -1,0 +1,46 @@
+:root {
+  --brand-primary: #003D5B;
+  --brand-secondary: #D1495B;
+  --brand-tertiary: #EDAE49;
+  --brand-v2: #30638E;
+  --brand-v3: #00798C;
+  --brand-white: #FBF8EF;
+  --brand-white: #FBF8EF;
+}
+
+body {
+  background-color: var(--brand-white);
+  font-family: var(--font-sans);
+  
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+  }
+
+  .gh-head {
+    background-color: var(--brand-white);
+  }
+
+  a,
+  .gh-article-tag {
+    color: var(--brand-primary);
+  }
+
+  .gh-head-logo {
+    font-family: var(--font-serif);
+  }
+
+  .gh-head-logo img {
+    max-height: 60px;
+  }
+
+  .gh-article-excerpt {
+    color: var(--color-primary-text);
+  }
+}
+
+.gh-primary-btn {
+  color: white;
+  background-color: var(--brand-v3);
+}
