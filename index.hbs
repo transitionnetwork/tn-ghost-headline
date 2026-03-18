@@ -9,6 +9,7 @@
 
         <div class="gh-topic gh-topic-grid">
             <div class="gh-topic-content gh-feed">
+<<<<<<< HEAD
                 {{#match pagination.page 2}}
                     {{#get "posts" include="authors" limit=@config.posts_per_page as |recent|}}
                         {{#foreach recent}}
@@ -16,11 +17,18 @@
                         {{/foreach}}
                     {{/get}}
                 {{/match}}
+=======
+>>>>>>> 9f3c060 (Local working copy)
                 {{#foreach posts}}
                     {{> "loop-grid" has_large_post=false}}
                 {{/foreach}}
             </div>
         </div>
 
+<<<<<<< HEAD
+=======
+        {{> "pagination"}}
+
+>>>>>>> 9f3c060 (Local working copy)
     </div>
 </main>

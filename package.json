@@ -1,7 +1,11 @@
 {
     "name": "headline-xinc",
     "description": "A Ghost theme - forked by Xinc",
+<<<<<<< HEAD
     "version": "1.0.4",
+=======
+    "version": "1.1.1",
+>>>>>>> 9f3c060 (Local working copy)
     "private": true,
     "engines": {
         "ghost": ">=5.0.0"

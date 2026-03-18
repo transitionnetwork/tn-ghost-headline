@@ -1,0 +1,14 @@
+{{#if pagination}}
+    {{#if pagination.next}}
+        <footer class="gh-topic-footer gh-pagination">
+            {{#if pagination.prev}}
+                <a class="gh-topic-link gh-pagination-prev" href="{{page_url pagination.prev}}">{{> "icons/arrow"}} Newer posts</a>
+            {{/if}}
+            <a class="gh-topic-link gh-pagination-next" href="{{page_url pagination.next}}">Older posts {{> "icons/arrow"}}</a>
+        </footer>
+    {{else if pagination.prev}}
+        <footer class="gh-topic-footer gh-pagination">
+            <a class="gh-topic-link gh-pagination-prev" href="{{page_url pagination.prev}}">{{> "icons/arrow"}} Newer posts</a>
+        </footer>
+    {{/if}}
+{{/if}}
